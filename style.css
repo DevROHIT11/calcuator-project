@@ -1,0 +1,191 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@media (max-width:480px) and (max-height :1000px) {
+ 
+  #cont{
+    width: 300px;
+    height: 460px;
+    /* height: 648px; */
+  
+  } 
+  #display{
+    width: 270px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: none ;
+    ;
+   }
+   #keyboard{
+    width: 256px;
+    height:226px;
+   }
+   #keys{
+    width: 52px;
+    height:37px;
+    font-size: 71%;
+   }
+   #name1{
+    font-size: 95%;
+  font-weight: 800;
+   }
+}
+@media (max-width:1000px) and (max-height :1000px) {
+ 
+  #cont{
+    width: 300px;
+    height: 460px;
+    /* height: 648px; */
+  
+  } 
+  #display{
+    width: 270px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: none ;
+    ;
+   }
+   #keyboard{
+    width: 256px;
+    height:226px;
+   }
+   #keys{
+    width: 52px;
+    height:37px;
+    font-size: 71%;
+   }
+   #name1{
+    font-size: 95%;
+  font-weight: 800;
+   }
+}
+
+* {
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  
+}
+body{
+  background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  
+  
+}
+.container {
+  
+  background-color: white;
+  border-radius: 20px;
+  width: 40vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* object-fit: cover; */
+  object-fit: scale-down;
+  background-repeat: no-repeat;
+}
+.name {
+  padding: 5%;
+  color: black ;
+  font-size: large;
+  font-weight: 800;
+  text-align: right;
+}
+.screen {
+  font-size: 3rem ;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  justify-items: end;
+  justify-content: end;
+  text-align: right;
+  margin: 5vh;
+  background-color: none;
+  color: black;
+  padding: 2%;
+  width: 90%;
+  height: 10%;
+ border: none;
+  border-radius: 5px;
+  /* box-shadow: 5px -3px 4px 3px inset rgb(92, 91, 91); */
+}
+.keypad {
+  /* background-color: violet; */
+  padding: 5%;
+  width: 92%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 5% ;
+  align-items: center;
+  align-content: center;
+}
+.click {
+  /* background-color: #841ff6; */
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-UHodeMn1fwxMXWUFUDG0OJ4ghL54H52lw&s);
+  color:violet;
+  font-size: x-large;
+  font-weight: 700;
+  height: 90%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 13px 2px violet;
+  border: none;
+}
+.click:hover {
+  color: violet;
+  box-shadow: none;
+}
+.btn1 {
+  color: red;
+  box-shadow: 1px 1px 13px 2px red;
+}
+.btn1:hover {
+  color: red;
+  box-shadow: none;
+}
+.btn20 {
+  background-color: rgb(33, 33, 33);
+  color: wheat;
+  box-shadow: 1px 1px 13px 2px wheat;
+}
+.btn20:hover {
+  color: wheat;
+  box-shadow: none;
+}
+.btn2{
+  
+  color:yellow;
+  box-shadow: 1px 1px 13px 2px  yellow;
+}
+.btn2:hover{
+  background-color: rgb(233, 233, 98);
+  color:yellow;
+  box-shadow: none;
+}
+
+.operators{
+color:greenyellow;
+box-shadow: 1px 1px 13px 2px greenyellow;
+}
+.operators:hover{
+  color:greenyellow;
+  box-shadow: none;
+}
