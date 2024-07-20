@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+  </head>
+  <body>
+    click
+    <div class="container" id="cont">
+      <input type="text" id="display" class="screen" disabled />
+      <div class="keypad" id="keyboard">
+        <button class="click btn1"  id="keys" onclick="clearDisplay()">AC</button>
+        <button class="click btn2"  id="keys" onclick="deleteLastDigit()">DEL</button>
+        <button class="click btn3 operators"  id="keys"  onclick="appendToDisplay('.')">.</button>
+        <button class="click btn4 operators"  id="keys"  onclick="appendToDisplay('/')">/</button>
+        <button class="click btn5"  id="keys" onclick="appendToDisplay('7')">7</button>
+        <button class="click btn6"  id="keys" onclick="appendToDisplay('8')">8</button>
+        <button class="click btn7"  id="keys" onclick="appendToDisplay('9')">9</button>
+        <button class="click btn8 operators"  id="keys"  onclick="appendToDisplay('-')">-</button>
+        <button class="click btn9"  id="keys" onclick="appendToDisplay('4')">4</button>
+        <button class="click btn10" id="keys"  onclick="appendToDisplay('5')">5</button>
+        <button class="click btn11" id="keys"  onclick="appendToDisplay('6')">6</button>
+        <button class="click btn12 operators" id="keys"   onclick="appendToDisplay('*')">*</button>
+        <button class="click btn13" id="keys"  onclick="appendToDisplay('1')">1</button>
+        <button class="click btn14" id="keys"  onclick="appendToDisplay('2')">2</button>
+        <button class="click btn15" id="keys"  onclick="appendToDisplay('3')">3</button>
+        <button class="click btn16 operators" id="keys"   onclick="appendToDisplay('+')">+</button>
+        <button class="click btn17" id="keys"  onclick="appendToDisplay('0')">0</button>
+        <button class="click btn18 operators" id="keys"   onclick="appendToDisplay('(')">(</button>
+        <button class="click btn19 operators" id="keys"   onclick="appendToDisplay(')')">)</button>
+        <button class="click btn20" id="keys"  onclick="calculate()">=</button>
+      </div>
+      <div class="name" id="name1">SIMPLE CALCULATOR</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
